@@ -1,0 +1,54 @@
+@font-face {
+    font-family:'ubuntu';
+    src: url( '../fonts/ubuntu-bold.ttf');
+}
+h1{
+    color:green;
+    font-size: 38px;
+    font-family: 'ubuntu';
+}
+label{
+    font-family: 'ubuntu';
+    font-size: 25px;
+}
+label.mr1{
+    margin-right: 5px;
+}
+label.m2{
+    margin-right: 50px;
+}
+label.m3{
+    margin-right: 50px;
+}
+input{
+    font-size: 27px;
+    height: 56px;
+    width: 450px; 
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+input[type="submit"]{
+    width: 150px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+input[ type= "submit"] :hover{
+    background-color: green;
+    border-radius: 1;
+    transform: scale(1.1);
+}
+input[ type="reset"]{
+    width: 150px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    border: none;
+}
+input:focus{
+    outline: 0;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
